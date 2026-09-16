@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fieldnotes is a focused journal about thoughtful work, sustainable routines, and creative momentum."
+    />
+    <title>Fieldnotes — Ideas for thoughtful work</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310223d'/%3E%3Cpath d='M18 17h30v9H28v8h17v9H28v14H18z' fill='%23f3c95d'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__content reveal">
+          <p class="eyebrow">A journal for thoughtful work</p>
+          <h1 id="hero-title">Make room for ideas that matter.</h1>
+          <p class="hero__intro">
+            Practical essays for building better routines, protecting your
+            attention, and doing work you are proud to share.
+          </p>
+          <button class="button" type="button" data-scroll-to-blogs>
+            Read the latest
+            <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+
+        <div class="hero__art reveal" aria-hidden="true">
+          <div class="hero__note">
+            <span>Issue 08</span>
+            <strong>Clarity grows when the noise gets quieter.</strong>
+          </div>
+          <div class="hero__orbit"></div>
+          <div class="hero__dot hero__dot--one"></div>
+          <div class="hero__dot hero__dot--two"></div>
+        </div>
+      </section>
+
+      <section class="blogs" id="latest-stories" aria-labelledby="blogs-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">From the journal</p>
+          <h2 id="blogs-title">Two ideas worth keeping</h2>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card reveal">
+            <div class="blog-card__number" aria-hidden="true">01</div>
+            <div class="blog-card__content">
+              <p class="blog-card__meta">Focus · 5 min read</p>
+              <h3>Design a morning that protects your best attention</h3>
+              <p>
+                A useful morning does not need to be perfect. It needs a clear
+                first move and fewer decisions between you and the work.
+              </p>
+              <div class="blog-card__more" id="blog-one-more" hidden>
+                <p>
+                  Begin with one important task, prepare its materials the night
+                  before, and keep your first thirty minutes free from incoming
+                  messages. Small boundaries create surprisingly large pockets
+                  of calm.
+                </p>
+              </div>
+              <button
+                class="text-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="blog-one-more"
+                data-read-more
+              >
+                <span>Continue reading</span>
+                <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="blog-card blog-card--accent reveal">
+            <div class="blog-card__number" aria-hidden="true">02</div>
+            <div class="blog-card__content">
+              <p class="blog-card__meta">Practice · 4 min read</p>
+              <h3>Why small experiments beat ambitious plans</h3>
+              <p>
+                When the next step feels uncertain, shrink the commitment and
+                learn from something real instead of planning in circles.
+              </p>
+              <div class="blog-card__more" id="blog-two-more" hidden>
+                <p>
+                  Give an idea one week, one measurable question, and one honest
+                  review. An experiment turns doubt into evidence while keeping
+                  the cost of changing direction comfortably low.
+                </p>
+              </div>
+              <button
+                class="text-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="blog-two-more"
+                data-read-more
+              >
+                <span>Continue reading</span>
+                <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonial" aria-label="Reader testimonial">
+        <div class="testimonial__mark reveal" aria-hidden="true">“</div>
+        <figure class="testimonial__content reveal">
+          <blockquote>
+            Fieldnotes has the rare ability to make big ideas feel immediately
+            useful. Every essay leaves me with one clear thing to try.
+          </blockquote>
+          <figcaption>
+            <span class="testimonial__avatar" aria-hidden="true">AM</span>
+            <span>
+              <strong>Alex Morgan</strong>
+              <small>Independent designer</small>
+            </span>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
